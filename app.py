@@ -67,5 +67,5 @@ if uploaded_file is not None:
         mse = mean_squared_error(y, prediction)
         r2 = r2_score(y, prediction)
 
-        st.write(f"Mean Squared Error: {mse}")
+        
         st.write(f"R2 Score: {r2}")
