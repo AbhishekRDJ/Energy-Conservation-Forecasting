@@ -6,7 +6,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load the dataset
-data = pd.read_csv('data/spain_energy_data.csv')  # Replace with the actual file path
+data = pd.read_csv('spain_energy_data.csv')  # Replace with the actual file path
 
 # Convert the 'time' column to datetime with UTC to avoid timezone warnings
 data['time'] = pd.to_datetime(data['time'], utc=True)
